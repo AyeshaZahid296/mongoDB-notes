@@ -20,7 +20,7 @@ db.inventary.insert({
 })
 
 //Insert many Rows
-db.comments.insertMany([{
+db.inventary.insertMany([{
     'item': 'wire',
     'size': { h: 23, w: 2.1 },
     'qty': 6
