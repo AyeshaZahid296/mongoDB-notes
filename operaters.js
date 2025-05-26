@@ -30,7 +30,6 @@ db.student.updateOne(
     { $currentDate: { lastModified: true } }
 )
 
-
 // $push: Add elements in the last of array
 db.student.updateOne(
     { name: "Ayesha" },
